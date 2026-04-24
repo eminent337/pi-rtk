@@ -13,11 +13,11 @@
  * user's choice to exclude shell output from model context is preserved.
  */
 
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@eminent337/aery";
 import {
   createBashTool,
   createLocalBashOperations,
-} from "@mariozechner/pi-coding-agent";
+} from "@eminent337/aery";
 import { execFileSync } from "node:child_process";
 
 const REWRITE_TIMEOUT_MS = 5000;
